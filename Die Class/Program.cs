@@ -20,6 +20,8 @@ namespace Die_Class
             die2.DrawRoll();
 
             sum = 7;
+            
+  
 
             if (die1.Roll == die2.Roll)
             {
@@ -30,13 +32,13 @@ namespace Die_Class
             {
                 Console.WriteLine("You rolled a Sum of 7.");
             }
-            if (die1.Roll == die2.Roll)
+            if (die1.Roll == 1 && die2.Roll == 1)
             {
                 Console.WriteLine("You rolled Snake Eyes.");
             }
-            //if ()
+            //if (die1.Roll%2 != 0 + die2.Roll%2 != 0 )
             //{
-            //    Console.WriteLine("You rooled a Even sum.");
+            //    Console.WriteLine("You rolled a Even sum.");
             //}
 
         }
