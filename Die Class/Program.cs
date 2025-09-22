@@ -36,10 +36,10 @@ namespace Die_Class
             {
                 Console.WriteLine("You rolled Snake Eyes.");
             }
-            //if (die1.Roll%2 != 0 + die2.Roll%2 != 0 )
-            //{
-            //    Console.WriteLine("You rolled a Even sum.");
-            //}
+            if ((die1.Roll + die2.Roll) % 2 == 0)
+            {
+                Console.WriteLine("You rolled a Even sum.");
+            }
 
         }
     }
